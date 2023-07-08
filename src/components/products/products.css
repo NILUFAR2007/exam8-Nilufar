@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    align-items: center;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.ehfErK {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    column-gap: 2rem;
+}
+img{
+    width: 354px;
+    height: 175px;
+}
+ .products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 1.5rem;
+}
